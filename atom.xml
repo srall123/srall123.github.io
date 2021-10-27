@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://srall123.github.io</id>
     <title>Ray&apos;s Blog</title>
-    <updated>2021-10-27T09:06:47.455Z</updated>
+    <updated>2021-10-27T09:13:11.093Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://srall123.github.io"/>
     <link rel="self" href="https://srall123.github.io/atom.xml"/>
@@ -16,7 +16,8 @@
         <link href="https://srall123.github.io/post/fuckblog/">
         </link>
         <updated>2021-10-27T04:00:21.000Z</updated>
-        <content type="html"><![CDATA[<p>noanyidea</p>
+        <content type="html"><![CDATA[<p>noanyidea<br>
+tags can't add, I figured it out.</p>
 ]]></content>
     </entry>
     <entry>
