@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://srall123.github.io</id>
-    <title>MyBlog</title>
-    <updated>2021-10-27T08:35:05.229Z</updated>
+    <title>Ray&apos;s Blog</title>
+    <updated>2021-10-27T08:58:12.839Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://srall123.github.io"/>
     <link rel="self" href="https://srall123.github.io/atom.xml"/>
     <subtitle>I have VOICE.</subtitle>
     <logo>https://srall123.github.io/images/avatar.png</logo>
     <icon>https://srall123.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, MyBlog</rights>
+    <rights>All rights reserved 2021, Ray&apos;s Blog</rights>
     <entry>
         <title type="html"><![CDATA[fuckblog]]></title>
         <id>https://srall123.github.io/post/fuckblog/</id>
