@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://srall123.github.io</id>
     <title>Ray&apos;s Blog</title>
-    <updated>2021-10-28T05:39:46.693Z</updated>
+    <updated>2021-11-03T04:01:36.443Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://srall123.github.io"/>
     <link rel="self" href="https://srall123.github.io/atom.xml"/>
@@ -11,13 +11,14 @@
     <icon>https://srall123.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Ray&apos;s Blog</rights>
     <entry>
-        <title type="html"><![CDATA[fuckblog]]></title>
-        <id>https://srall123.github.io/post/fuckblog/</id>
-        <link href="https://srall123.github.io/post/fuckblog/">
+        <title type="html"><![CDATA[Hello World💪 & Fuck World🖕]]></title>
+        <id>https://srall123.github.io/post/hello-world-and-fuck-world/</id>
+        <link href="https://srall123.github.io/post/hello-world-and-fuck-world/">
         </link>
-        <updated>2021-10-27T04:00:21.000Z</updated>
-        <content type="html"><![CDATA[<p>noanyidea<br>
-tags can't add, I figured it out.</p>
+        <updated>2021-10-27T09:26:22.000Z</updated>
+        <content type="html"><![CDATA[<p>本身是一个非常乐于表达的人，加上工作使然，就形成了每天废话连篇的习惯。原先很多观点无法在主旋律下容忍，废了几个号之后，一直鸵鸟了五六年。就一直想着改日得闲开个私人博客，不时发泄一下表达欲也算是保持身心健康。</p>
+<p>智商不高加上长期熬夜，导致记忆严重衰退，需要博客记录工作、感悟生活、分享观点。自己没有任何政治目的和倾向，想从我这得到爱国恨国言论的恐怕要失望了。照理本不需要进行这些无聊解释，但是总有把政治当生活的人，也说不上来他们是好人或坏人，只是为了避免不必要的麻烦就进一步说明。</p>
+<p>再一次站在选择的十字路口，现在可以有大量的时间进行思考和输出。前前后后鼓捣了一下午时间，终于搞定博客可以开始写作了。鸡零狗碎，毫无逻辑先整一篇。感谢Gridea平台把很多github指令都简化了，而且跨平台使用也比较适合我。虽然在使用中出现一些bug比较烦，但还是对新手比较友好。</p>
 ]]></content>
     </entry>
 </feed>
