@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://srall123.github.io</id>
+    <title>Lei&apos;s BLOG</title>
+    <updated>2023-08-09T16:37:21.023Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://srall123.github.io"/>
+    <link rel="self" href="https://srall123.github.io/atom.xml"/>
+    <subtitle>I have VOICE.</subtitle>
+    <logo>https://srall123.github.io/images/avatar.png</logo>
+    <icon>https://srall123.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, Lei&apos;s BLOG</rights>
+    <entry>
+        <title type="html"><![CDATA[北欧转码路上（三）HIVE Helsinki 学习]]></title>
+        <id>https://srall123.github.io/post/bei-ou-zhuan-ma-lu-shang-san-hive-helsinki-xue-xi/</id>
+        <link href="https://srall123.github.io/post/bei-ou-zhuan-ma-lu-shang-san-hive-helsinki-xue-xi/">
+        </link>
+        <updated>2023-08-03T00:05:26.000Z</updated>
+        <content type="html"><![CDATA[<p>北欧的夏天赏心悦目，大部分芬兰人会选择在7、8月休假，然后从每年10月份又开始新一轮的夏季等待。虽然芬兰夏季只有短暂的两个月，但每年会有三四百人愿意牺牲宝贵的一个月选择来Hive参加Piscine。</p>
+<p>尽管大部分人都无法最终入选Hive，但不可否认，紧张高强度的Piscine会让你受益匪浅。今年的Piscine正在进行时，我们这些老Hiver也得了一周的“强制”休息时间。趁这个“假期”赶紧填上第二部分的坑，这部分主要介绍Hive的学习过程。</p>
+<h3 id="new-curriculum">New Curriculum</h3>
+<p>我从去年10月底正式开始Hive课程，说是课程，其实并不尽然，类似一个一个关卡，而每个关卡是一个一个独立的项目，你需要组队或独立完成。Hive Helsinki从我们Hive4开始选择使用新课程（BTW，正在Piscine的Swimmer使用的是新Piscine，也就是说学习内容和方式上与上一篇文章所述的有些差异），整个新课程分为两大部分Core Courses和Branches。<br>
+<img src="https://srall123.github.io/post-images/1691597587499.png" alt="" loading="lazy"><br>
+整个核心课程要求一年半的学习时间，Hive会有一个Blackhole机制来实时追踪你的项目完成进度，类似一个deadline机制。当你完成一个项目之后，系统会根据你的level给你对应项目所需的时间来延迟Blackhole。如果很不幸，你无法按期完成你的项目，那么你将被黑洞吞噬，意味着你在Hive的学习将被终止。下图所示，每个棱形表示一个学生，每个轨道表示Blackhole的距离，当然在内部Intra你也可以知道自己blackhole的准确日期。<br>
+<img src="https://srall123.github.io/post-images/1691597690367.png" alt="" loading="lazy"><br>
+整个课程如下图，我们不被允许展示内部系统，所以我做了一个草图。每一个矩形表示一个Project，每一个circle表示一个Level，一般而言，除最内部的Circle外每个Circle会有三个Projects和一个Exam。实际核心课程共有7层Level，完成最外围的Circle之后就是你可选的Branches，Hive官方分为了9个Branches，每个方向都对应了不同的Projects。<br>
+<img src="https://srall123.github.io/post-images/1691597702899.png" alt="" loading="lazy"></p>
+<h3 id="core-courses">Core Courses</h3>
+<p>核心课程的学习时间，官方要求18个月内完成，你的Blackhole也是严格按照这个时间来设置。关于这个时间设置是否宽裕，因人而大异。入选Hive的学生也都藏龙卧虎，有些有经验的coder一边上班一边学习，进度也不会落下；有些同学心无旁骛，目标坚定，8个月就基本上完成了所有内容；也有些同学从一开始就很难跟上学习的进度，尤其是项目一个比一个难的时候，很容易Quit。如果自己真心不喜欢代码，或者不适合代码，这个阶段就会呈现出不同的职业选择。个人而言，课程设置非常科学，它实际上会阶段性调整课程难度，有些项目简单有些项目又很难，比如有一个项目让你用C语言手撸一个Terminal，对于新手而言确实很难Handle，但是它仅仅是第四个Circle的项目。</p>
+<p>与Piscine一样，课程学习中没有任何老师，每个项目你只有一个官方的Subject文档。每个Circle会有一个Group Project，你需要和不同的人合作，这些团队项目对我帮助非常大，无论是团队协作还是不同代码思路的吸收，经常让我大开眼界，为什么别人的代码可以如此简洁而优雅。总之，闭门造车、同侪讨论、开源代码，各种学习方式自由发挥。不管哪种学习方式，一定要对自己负责。</p>
+<p>核心课程现在覆盖面较广，因为旧课程常常被诟病项目知识老旧、无法跟上企业技术的变化，同时缺乏很多项目工具。目前，新课程在一定程度上完善了这个问题，其项目内容主要涵盖C/C++、Unix、VM、Network、Graphics、Docker、Web、Gaming等，关于算法、数据结构和计算机原理都会在项目中有所涉及。在最后一个核心课程的Circle上会有一个项目要求你寻找一个公司进行为期半年的internship，所以这个阶段你就需要求职和面试。</p>
+<p>此外，对于项目完成时间充裕的同学而言，推荐大家多尝试参加一些编码活动，比如Game Jam、Hackthon之类的代码比赛。但是要注意活动筛选和时间分配，我就曾因为一度密集参加这类活动，浪费了几个月的时间。</p>
+<h3 id="branches">Branches</h3>
+<p>完成上述核心课程之后，不出意外的话，你已经开始全职工作了。但是Hive依然提供了9个Branches的项目，让你深入学习特定领域的知识。9个方向涵盖前后端、游戏开发、人工智能、操作系统、安全运维等。项目难度会比核心课程高很多，当你完成一定数量的项目后就会获得该方向的证书。</p>
+<h3 id="student-benefits">Student Benefits</h3>
+<p>我知道前期大家都很关心补助，Kela和Hive有一些协议，如果你拥有不受限制的A签，你被允许申请学生补助，但是Kela会要求你全职在Hive的学习时间不少于25小时/周，Hive也会定期向Kela汇报你在Hive的学习时长。</p>
+<p>另外，你还可以申请失业补贴，会比学生补贴多很多钱，前提是你需要和Kela进行沟通，这个灵活性较大，有些同学拿的是失业津贴，而大部分学生拿的都是学生补贴，不知道他们的决定依据是什么。</p>
+<p>但是，现在移民政策和Kela政策都会有大幅收紧，所以具体Kela问题大家还是以入学时为准。</p>
+<p>Hive学习充实而快乐，让我找到了久违的学生状态，同学之间都非常友好。尽管会有一些压力，寻找适合自己的学习方式，坚定目标，共勉。转码之路道阻且长，现在又有ChatGPT的冲击，貌似转码也变得不那么“吃香”。我们也为此烦恼，但是管他呢，学习是热爱，怕什么真理无穷，进一寸有一寸的欢喜。</p>
+<p>PS：不知道有没有小朋友看见这篇文章时正在埋头Piscine，如果需要帮助请毫不犹豫DM我。。<br>
+<img src="https://srall123.github.io/post-images/1691598088245.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[北欧转码路上（二）HIVE Helsinki 入学]]></title>
+        <id>https://srall123.github.io/post/bei-ou-zhuan-ma-lu-shang-er-hive-helsinki-ru-xue/</id>
+        <link href="https://srall123.github.io/post/bei-ou-zhuan-ma-lu-shang-er-hive-helsinki-ru-xue/">
+        </link>
+        <updated>2023-08-02T04:04:47.000Z</updated>
+        <content type="html"><![CDATA[<p>2023年的申请马上开始了，在此之前为有心转码的小伙伴们特意填坑。</p>
+<p>上篇讲到Hiver的选拔机制非常新颖，即使你是一个完完全全的零基础代码小白，也能Hold住。正如他们宣传的那样，他们只要求你接受过基础教育，思想开放、积极主动并深思熟虑转码的成年人。整个入选过程大体分为三阶段，你不能错过任何环节，否则申请都会戛然而止。当然，你也会在阶段性日期来临之前收到邮件提醒，所以请一定留意邮件。<a href="https://www.hive.fi/en/article/application-dates-for-2023/">附上最新的Application Date for 2023</a><br>
+<img src="https://srall123.github.io/post-images/1691593248451.png" alt="" loading="lazy"></p>
+<h3 id="13-online-test">1/3 Online Test</h3>
+<p>当你填报信息之后，你就需要完成一个线上测试。这个线上测试其实就是一个逻辑小游戏，形式有点类似Scratch的儿童编程。测试难度不大，主要测试你是否具备基本的<strong>逻辑思考能力</strong>。所以只要预留完整的2.5小时安静时间，认真对待即可，建议你准备好纸笔方便做一些运算。一共有两个小游戏，第一个10分钟，第二个2小时。一旦你开始游戏之后，就无法暂停或中止。有些题目连个字儿都没有，你需要自己去琢磨它的意图。这一点也像极了后面的Pisicne理念，Swimming by yourself！</p>
+<p>根据官方历史数据，这个环节会刷掉约70%的报名者，比如我们这期申请报名共有720人最终通过209人。请不要紧张这么高的淘汰率，更不要想着作弊。我当时也做的非常糟糕，没有完成几个题，导致当天夜里深深陷入怀疑自我（后面你就会发现，“怀疑自我”是Hive课程中刻意设置！谁让你是rookie呢？），但其实你只要认真对待并具备一定的逻辑思考能力即可。你如果不具备逻辑思考，你通过了也无法进一步学习不是。这并不是说你是一笨蛋，而仅仅表示你可能不适合从事代码工作。</p>
+<p>一般你完成线上测试之后，第二天就会收到通过的邮件。</p>
+<h3 id="23-check-in">2/3 Check-in</h3>
+<p>在你顺利通过Online Test后，你就会收到需要你出席<strong>Check-in Meeting</strong>的邮件，这个会议由于当时疫情影响改为线上，它会让你确认出席，类似于签到。会议主要介绍关于Hive规章制度、学习模式、Hiver选拔等，你认真听完即可。之后你就会收到Piscine的注册通知，你需要选择一个适合自己的Piscine时间段，每个Piscine位置都只有150人，然后根据报名人数大家进入<strong>Lottery</strong>。所以，如果你报的那个时间段人数超了150人，那么就会被随机抽取淘汰多余的人数，Lottery也是整个Hive申请过程中最无助的环节。当时我选择的时间段内共注册了151人，需要淘汰1人，天天害怕那个倒霉蛋会不会是自己🤣。</p>
+<p>在Check-in Meeting的大约一周内，你就会收到Lottery的结果。</p>
+<h3 id="33-piscine">3/3 Piscine</h3>
+<p>恭喜你，成功进入Piscine！Piscine是指为期四周的高强度训练，这是整个申请过程中最关键、最困难的阶段。Piscine是法语的Swimming Pool，所以Piscine期间又叫Learn to swim，我们就被称为Swimer。Hive把这个阶段比作直接把人扔在游泳池里扑腾，幸存者就学会了游泳。越是理解Hive的课程设置就越理解这个比喻的精妙。</p>
+<p>Piscine期间，你需要完成他们设置的超级多任务，包括每日练习Daily Exercises、周考Friday Exam、周项目Weekend Project（Group/Solo Project）、Final Exam、Final Project以及最重要的Evaluation。它就是把大量的代码知识集中压缩在1个月内，通过自我学习尽可能地完成任务，完成任务会有相应的分值给你提高Level，最终你的Level就是你的成绩。Piscine150人中最终会有30～40人左右入选，他们没有统一的标准所以也就没有人数的限制，只要符合他们的条件即可，也就是说你和同学并不是竞争关系。<br>
+<img src="https://srall123.github.io/post-images/1691596655191.png" alt="" loading="lazy"><br>
+前文说过，Hiver的选拔并不是依靠分数，那靠什么？没有人能够真正的给出答案，背后的算法和原理只能靠经验和个人理解。我的答案是意志力、协作、学习能力，按照优先级排序。</p>
+<p><strong>意志力！（每天都去）</strong></p>
+<p>你是否是一个持续学习者？能否全职高强度坚持一个月的学习，这一点我相信占比是很大的。因为很多人中途无法跟上进度，随着学习深入难度越来越高，哪怕一天只做一个题也跟不上，然后最后一周就开始松懈，有些人打乒乓球，有些人和同学聊天，有些人就只准备Final Exam，更有些“聪明人”疯狂地去Evaluation。</p>
+<p>当然你作为初学者是根本无法完成这样巨量任务的，并且完成的那部分也经常得零分。比如，Daily Exercises中我只有一天Pass，其他的都是0。这就是我前文所述，这是Hive对你“自我怀疑”的考验。当你一直付出极大努力后，没有任何账面回报，此时你是否还能依然保持学习的热情？是否会动摇自己学习的初心？而且大家都在肉眼可见的进步和内卷，巨大的同侪压力会让一些人情绪崩溃、一些人胃痉挛、一些人破罐子破摔。。最终，你会发现一些原来熟悉的面孔渐渐消失了。</p>
+<p>但是，我们基本上都接受过国内高考，这点压力对于我们来说无非是比少时更加清晰罢了。就我的感受而言，卷王之王往往属于中国人或越南人🤣。在Hive的厨房冰箱上，老Hiver温馨提示，Don't give up! Everything they do is to make you give up. 所以，一定不要放弃！只要按照课程要求走完，该完成地完成，哪怕得零分也无所谓。我把意志力列为第一，是因为转码确实需要很大决心来作持续地高强度地学习，而且我见过一些Group Project全零分且Level0的人入选。</p>
+<p><strong>协作！（认真评价）</strong></p>
+<p>通过Evaluation来保持协作，从而保证你的学习效果！Hive学习过程中没有老师，没有教程，只有一些零星的Videos来帮助你更好地完成每日任务，但是不得不吐槽他们自制的视频简直Horrible。所以，基本上Peer-to-Peer Learning是你唯一的被动输入。Piscine整个课程设置中有很多需要协作的部分，比如Evaluation互评机制、每周的Group Project和最后的Final Project。</p>
+<p>其中，Evaluation是Piscine乃至贯穿整个Hive学习的精髓所在，也是颠覆传统教育最重要的手段。传统教学中，教师作为Evaluator往往占主导地位，教师通常只能单向输出而输入极为有限。Hive剥离了教师角色，任意学生之间双向输入输出，你需要具备从身边人汲取知识的能力。具体来说，Evaluation由Evaluator和Defender两方组成，在你完成任务时你就是Defender需要多人来对你的工作进行评价，你在闲时也需要作为Evaluator去评价多人。只有在评价发生之前15分钟公开双方，匿名打乱整个社群，保证你可以与不同的人进行互动和学习。Hive非常重视这个环节，反复强调引起大家广泛的重视，确保形成一个良性循环。你如果深入认真地完成每一个Evaluation，会非常直观地体现在别人对你的Review上，也会真正地体会到Peer-to-Peer Learning的精妙。慢慢地你会发现，每个人的思考和解决问题的方式都不一样，不同领域背景的人会不断地启发你的想法。不同的合作者，能让你在真实职场中与不同的同事交流合作。</p>
+<p>Group Project的重要性似乎要比Solo Project更重要。尽管你会在你的intra系统中看见，Solo的分值要比Group高10倍，但依然推荐参加Group Project。Group Project的Evaluator是已经入选的Hiver，他们一般会在评价中给你解答你对Hive的疑惑，这种机会一定不能放过。如果你是主导项目的人，你还需要确保每个人都理解代码，因为Hiver会根据团队里表现最差的人作为小组的成绩。而且这些Review会在你入选Hive后造成影响，比如我第一天成为Hiver就被工作人员警告了，原因是其中一个Group Project的Hiver给了很坏的Review。此外，你还能在Group Project中见证奇迹，原来有些人用嘴码代码的！Talk is cheap, show me code. 你一定要时刻保持清醒，别被带进沟里。</p>
+<p><strong>学习能力！（考试、项目）</strong></p>
+<p>参加Hive的人都是成年人，大龄转码的居多，学习能力的强弱和习惯的好坏在Piscine阶段中就会暴露无遗。虽说你的得分不重要，但是你一定要展现出你在认真学习。项目认真参加，不会写也一定要弄懂队友的代码；考试更要参加，一共五次考试，准备充分。你的同学中很有可能会有一些成熟的程序员回炉重造，零基础很难跟上进度，但是不要气馁，你只需要着眼于自己的进步。</p>
+<p>我现在都有点PTSD了，提到Piscine浮现的都是苦难。在Piscine结束后约一周，你就能收到结果了。</p>
+<h3 id="结束语">结束语</h3>
+<p>以上就是Hive Admission的全过程，请随时关注网站更新2023年申请的阶段性日期。如果你在芬兰有合法的居留权，快去申请！<br>
+<img src="https://srall123.github.io/post-images/1691596273730.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[北欧转码路上（一）]]></title>
+        <id>https://srall123.github.io/post/bei-ou-zhuan-ma-lu-shang-yi/</id>
+        <link href="https://srall123.github.io/post/bei-ou-zhuan-ma-lu-shang-yi/">
+        </link>
+        <updated>2023-08-01T03:01:59.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="背景交代">背景交代</h3>
+<p>人到中年移居海外，很多事情都需要从头再来。作为一个能力并不出众的普通人，空杯心态很重要，你需要正确地梳理你过去的学历、技能、经历、成就，再作一个告别和总结。</p>
+<p>先介绍一下背景，本博机械硕电气，对程序员工作内容、薪资待遇、就业前景并不陌生，但需要系统学习才能进入代码行业。所以，一直对转码有些执念。毕业后虽然从事了IT相关产业，但是真正摸上代码的次数屈指可数，后主要从事研发、生产的管理工作。这样的背景使得移居芬兰后，无法很好地匹配当地劳动市场。我认识到自身存在着很多硬伤，缺乏技术岗位所需的扎实行业技能，缺乏管理岗位所需的商业知识，再加上语言限制。于是，经过数月的调整，结合当地的就业市场，决定系统学习代码。</p>
+<h3 id="芬兰转码机会">芬兰转码机会</h3>
+<p>芬兰教育一直秉持着“终身学习”的理念，拥有非常好的社会学习氛围和成熟的社会福利制度，这就意味着你可以拥有很多学习机会。就转码而言，赫尔辛基有非常多大大小小的coding school，同时TE部门也会提供ICT行业在职学习机会，只要你符合要求被选中，你可以直接在企业边实习边学习。当然你还可以申请去高等院校攻读学位，这需要你有一定的学历背景和经济能力。不同的机会适合不同的人。</p>
+<p>其中，Hive Helsinki绝对是芬兰众多转码机会中最独特的那一个。<br>
+<img src="https://srall123.github.io/post-images/1691586969374.png" alt="" loading="lazy"></p>
+<h3 id="hive-helsinki">Hive Helsinki！</h3>
+<p>Hive Helsinki是一个coding school，来源于法国的Ecole42，一种全新的教育理念。<a href="https://www.hive.fi/en">学校官网</a> 和42的<a href="https://en.wikipedia.org/wiki/42_(school)">维基百科</a>。简而言之，你可以理解为Hive是42学校在芬兰的分校。大家没必要区分两者，之后我也只介绍芬兰的Hive Helsinki，以下简称Hive。</p>
+<p>为什么说Hive是具有革命性的教育模式？它没有老师，也没有课程。它只给你提供24*7的教室和电脑，然后定期给你项目任务，你需要单独或组队完成，即所谓的peer-to-peer Learning。你可能会和我一样困惑，这有效吗？这不就是找伴自学？事实上没有这么简单！</p>
+<p>首先，你不是一个学生！这似乎是Hive有意为之。仔细想想就能理解其内在逻辑，Hive的目的是让你成为一个合格的开发者。尤其习惯了传统教育模式的我，它会促使你尽快摆脱学生思维。当你用开发者的标准要求自己时，你的身份认同和行为模式也会发生巨大的变化。参加Hive是需要很大的时间成本（根据历史数据，你完成整个Hive学习需要一年半的时间），几乎所有人都希望借此寻找代码相关工作。作为未来开发者，你需要解决一个又一个的工程问题，所以Hive的整个学习也由一个又一个的项目以及至少半年的企业实习组成，同时也会鼓励你参加各种社会活动，如Hackthon等。</p>
+<p>其次，协作学习！Hive官方非常强调协作，甚至Hive的名字也在强调协作。试想工作中，你往往不会拥有一个老师，也不会有youtube视频直接教你如何完成工作任务，那么你往往需要和同事一起去解决问题。无论你处于什么岗位、什么技术阶段，你几乎都需要具备向身边的人学习的能力。在学习的过程中，不同背景、不同能力、不同学习方法的人会对同一个问题形成不同的学习幅度和深度，而Hive的机制能让你很好的体会和掌握协作学习。</p>
+<p>最后，Hive并不需要一个超级学习者！Hive的选拔机制对零基础的完全新手很友好。我知道一个同学，刚开始的时候甚至不知道什么是Function（函数）！从Hive的整个Project设置中就能看出，它非常关注细节和意志力。这就意味着，请一定要在高强度的训练中坚持下去。这和芬兰的教育理念一致，他们认为每个人的学习能力不同，你学得慢只是代表你需要帮助。所以，成绩和得分并不会占用很大的比例。几乎每一届都存在着Piscine阶段最终Level很高，但是没有被选中的案例。</p>
+<h3 id="结束语">结束语</h3>
+<p>以上就是对Hive的一些粗浅认知，观点来自于若干Hiver的讨论和总结。篇幅受限，下一篇将会介绍如何进入Hive的整个流程。<br>
+<img src="https://srall123.github.io/post-images/1691586133824.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+</feed>
